@@ -3,7 +3,6 @@ body {
 }
 
 @font-face {
-    
     font-family: zisaku;
     src:url('/file/1.otf') format("opentype");
 }
