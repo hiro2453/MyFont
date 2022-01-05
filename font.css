@@ -1,0 +1,47 @@
+p.font {
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+p.font1 {
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+p.font2 {
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+p.font3 {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+@font-face {
+	font-family: 'MyFont';
+	src: url(font/a.ttf)  format('truetype');
+}
+
+p.font4 {
+  font-family: 'MyFont',sans-serif;
+}
+
+@font-face {
+	font-family: 'MyFont1';
+	src: url(font/b.ttf)  format('truetype');
+}
+
+h2,p.font5 {
+  font-family: 'MyFont1',sans-serif;
+}
+input {
+  font-size: 500%;
+  width: 150%;
+  box-sizing: border-box;
+  margin: 1em 0;
+  padding: 0em;
+  border-radius: 0.1em;
+}
+
+body {
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+}
